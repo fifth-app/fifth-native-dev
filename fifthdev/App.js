@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
+import { View } from 'react-native';
 import MainFlowTabNav from './navigators/MainFlowTabNav.js';
+import LoginStack from './navigators/LoginStack';
 
 export default class App extends Component {
   render() {
-    return (
-          // <LoginStackNavigator />
-          <View>
-          <MainFlowTabNav />
-          </View>
-    );
+    return true ? <LoginStack /> : <MainFlowTabNav />
   }
 }
 
