@@ -1,16 +1,7 @@
-import React, { Component } from 'react';
-import { View } from 'react-native';
+import React, { Component, useState } from 'react';
 import MainFlowTabNav from './navigators/MainFlowTabNav.js';
 import LoginStack from './navigators/LoginStack';
 
-export default class App extends Component {
-  render() {
-    return true ? <LoginStack /> : <MainFlowTabNav />
-  }
+export default function App(props) {
+    return ( true ? <LoginStack /> : <MainFlowTabNav />);
 }
-
-{/* <ScrollView style={styles.container} content={styles.contentContainer}>
-<View style={styles.container}>
-  {/* <HomeScreen /> */}
-// </View>
-// </ScrollView> */}

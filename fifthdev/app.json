@@ -12,6 +12,9 @@
       "ios",
       "android",
       "web"
-    ]
+    ],
+    "splash": {
+      "image": "./assets/images/fifth.png"
+    }
   }
 }
