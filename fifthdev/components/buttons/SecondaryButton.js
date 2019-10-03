@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableOpacity, Text } from 'react-native';
-import styles from './styles/_primaryButton';
+import styles from './styles/_secondaryButton';
 
 export default function Primary(props) {
     return (

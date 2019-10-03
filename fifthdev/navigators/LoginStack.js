@@ -9,8 +9,8 @@ import HomeScreen from '../screens/HomeScreen';
 const LoginStack = createStackNavigator(
     {
         WelcomeScreen,
-        // Links: LoginScreen,
-        // Links: RegisterScreen
+        LoginScreen,
+        RegisterScreen
     },
 )
 LoginStack.path = '';
