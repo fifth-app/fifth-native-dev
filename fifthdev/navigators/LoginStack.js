@@ -7,12 +7,12 @@ import HomeScreen from '../screens/HomeScreen';
 
 
 const LoginStack = createStackNavigator(
-    {   
-        Links: WelcomeScreen,
+    {
+        WelcomeScreen,
         // Links: LoginScreen,
         // Links: RegisterScreen
     },
-)   
+)
 LoginStack.path = '';
 export default createAppContainer(LoginStack);
 
